@@ -1,0 +1,13 @@
+// Count.idl
+
+module CounterPOA
+{
+  interface Count
+  { attribute long sum;
+    long increment();
+  };
+}; 
+
+
+
+
